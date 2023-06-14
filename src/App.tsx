@@ -19,7 +19,7 @@ function App() {
     <main className='main'>
       
       <div className="input">
-        <input type="text" value={url} onChange={handleChangeUrl} />
+        <input type="text" value={searchText} onChange={handleChangeUrl} />
         <button onClick={handleSendUrl}>Send</button>
       </div>
 
